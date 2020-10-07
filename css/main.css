@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+    font-weight: bold;
+}
+
+.header {
+    background: green;
+    height: 40px;
+}
+
+.header div {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 40px;
+}
+
+.content {
+    background: blue;
+    width: 550px;
+    height: 718px;
+    padding: 19px 25px 11px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-size: 36px;
+}
+
+.maincontent {
+    margin-top: 29px;
+}
+
+.figure {
+    float: left;
+    width: 110px;
+    height: 110px;
+    border: 5px solid white;
+    border-radius: 15px 0px 25px;
+    margin-right: 21px;
+    margin-bottom: 40px;
+}
+
+.maincontent p {
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.link {
+    color: red;
+    display: block;
+    margin-top: 21px;
+    text-align: center;
+}
+
+.list {
+    margin-top: 17px;
+}
+
+.list span {
+    font-weight: bold;
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.list span:first-child {
+    color: red;
+}
+
+.list ul li {
+    margin-left: 48px;
+    margin-top: 9px;
+}
+
+.list ul li:nth-child(2) {
+    color: aqua;
+    letter-spacing: 0.28em;
+}
+
+.twocontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstcontent {
+    margin-top: 30px;
+}
+
+.firstcontent h3 {
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+
+.firstcontent p {
+    margin-bottom: 9px;
+}
+
+.firstcontent p:last-child {
+    margin-top: 20px;
+}
+
+.secondcontent {
+    margin-top: 20px;
+}
+
+.secondcontent table {
+    border: 1px solid silver;
+}
+
+.secondcontent td {
+    width: 44px; 
+    height: 34px;
+    border: 1px solid silver;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.secondcontent img {
+    float: right;
+    margin-top: 20px;
+}
+
+.footer {
+    background: green;
+    height: 40px;
+}
+
+.footer div {
+    text-align: center;
+    line-height: 40px;
+}
