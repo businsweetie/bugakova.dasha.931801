@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+
+.floatboxdiv {
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    margin: 24px 0  0 24px;
+}
+
+.cleardiv {
+    background-color: bisque;
+    width: 100%;
+    margin: 24px 0 0 8px;
+    clear: left;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+
+.content {
+    margin-left: 8px;
+}
+
+.block {
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+.fblock {
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    margin-right: 36px;
+    margin-bottom: 36px;
+    display: inline-block;
+}
+
+.fblock:last-child {
+    margin-bottom: 24px;
+}
+
+.fblock:nth-last-child(2) {
+    margin-bottom: 24px;
+}
+
+.lstring {
+    background-color: bisque;
+}
+
