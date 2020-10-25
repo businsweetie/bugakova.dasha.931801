@@ -20,7 +20,6 @@ body {
 
 .cleardiv {
     background-color: bisque;
-    width: 100%;
-    margin: 24px 0 0 8px;
-    clear: left;
+    margin: 24px 8px 0 8px;
+    
 }

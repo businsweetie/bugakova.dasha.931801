@@ -19,8 +19,7 @@ body {
 
 .list {
     background-color: bisque;
-    max-width: 476px;
-    width: 100%;
+    width: 476px;
     height: 86px;
     box-sizing: border-box;
     float: left;
@@ -49,6 +48,7 @@ body {
         height: min-content;
         margin-bottom: 10px;
         margin-top: 10px;
+        width: 100%;
     }
 
     .list ul {
