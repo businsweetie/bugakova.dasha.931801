@@ -23,7 +23,7 @@ body {
 main {
     width:50%;
     margin:0 auto;
-    min-height: 100vh;
+    height: 605px;
     display: flex;
     align-items: stretch;
 }
