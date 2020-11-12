@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+}
+
+main .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    height: 54px;
+    width: 100%;
+    background-color: red;
+    border: 2px solid black;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+main .images {
+    display: flex;
+    height: 500px;
+    position: relative;
+}
+
+main .images .leftimg {
+    background:blue;
+}
+
+main .images .rightimg {
+    background-color: green;   
+}
+
+.images div {
+    position: relative;
+    float: left;
+    display: flex;
+    min-width: 80px;
+    height: 330px;
+    width: 450px;
+    width:100%;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+    margin: 25px;
+}
