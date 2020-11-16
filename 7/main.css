@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 275px;
+}
+
+button {
+    width: 90px;
+}
+
+.square {
+    position: absolute;
+    background: #96FFEC;
+    border: 1px solid black;
+}
+
+.triangle {
+    position: absolute;
+    background: linear-gradient(to right bottom, transparent 50%, #96D9FF 50%) left / 50% 100% no-repeat, linear-gradient(to left bottom, transparent 50%, #96D9FF 50%) right / 50% 100% no-repeat;
+}
+
+.circle {
+    position: absolute;
+    background: #B196FF;
+    border: 1px solid black;
+    border-radius: 100%;
+}
