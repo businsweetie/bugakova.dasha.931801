@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main_focus {
+    position: relative;
+}
+
+.curtain {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: url('media/curtain.jpg') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+
+.hover {
+    transition: top 0.2s linear;
+}
+
+.curtain:hover {
+    top: -5%;
+}
+
+.curtain_click {
+    transition: top 1s linear;
+}
+
+.lamp_focus {
+    width: 100%;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.img {
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.lamp {
+    width: 300px;
+    left: 0;
+    position: absolute;
+    z-index: 9;
+}
+
+.turn {
+    z-index: 8;
+    width: 10px;
+    position: absolute;
+    top: 50px;
+    left: 122px;
+    transition: top 0.1s linear;
+}
+
+.light_triangle {
+    margin: 150px auto;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: -182px;
+    left: -150px;
+    z-index: 5;
+    transition: visibility 0.2s linear;
+    opacity: .5;
+    background: linear-gradient(to right bottom, transparent 50%, rgba(209, 209, 11, 0.74) 50%) left / 50% 100% no-repeat, linear-gradient(to left bottom, transparent 50%, rgb(255, 255, 0, 0.6) 50%) right / 50% 100% no-repeat;
+}
+
+.light_triangle::before {
+    content: "";
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: black;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.witch_focus {
+    transition: visibility 0.2s linear;
+}
+
+.witch {
+    position: absolute;
+    top: 350px;
+    left: -95px;
+    width: 300px;
+}
+
+.hat {
+    width: 130px;
+    position: absolute;
+    z-index: 5;
+    opacity: 0.5;
+    top: 440px;
+    left: 250px;
+}
+
+.rat {
+    width: 50px;
+    position: absolute;
+    top: 350px;
+    left: 290px;
+    transition: top 0.5s linear;
+}
+
+.bird {
+    width: 50px;
+    position: absolute;
+    top: 380px;
+    left: 290px;
+    transition: top 0.5s linear;
+}
